@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Full-Stack Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Adriene Estrada</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div style="max-width:900px;margin:0 auto;width:100%;">
+    <section id="hero">
+      <p class="hero-label">Full-Stack Engineer · Robotics · Based in Manila</p>
+      <h1 class="hero-name">Building things<br><span>for the greater good.</span></h1>
+      <p class="hero-tagline">I design and engineer end-to-end digital products — from pixel-perfect interfaces to resilient backend systems.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-scroll">
+        <span class="scroll-line"></span>
+        Scroll
+      </div>
+    </section>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label reveal">About</p>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <h2>Engineering with<br><strong>purpose & craft.</strong></h2>
+        <p>I'm a full-stack engineer with a strong focus on building scalable, maintainable applications. I care deeply about developer experience and the people who use what I build.</p>
+        <p>When I'm not shipping code, I'm exploring systems design, robotics, contributing to open-source, or learning something new at the intersection of UX and engineering.</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Projects Developed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Open Source Contributions</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label reveal">Skills</p>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <p class="skill-group-title">Frontend</p>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Tailwind</span>
+          <span class="skill-tag">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-title">Backend</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-title">Data & Robotics</p>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">C++</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label reveal">Projects</p>
+    <div class="projects-list">
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">01</span>
+        <div class="project-body">
+          <h3 class="project-title">E-Compendium — An Interactive Electronic Component Module System</h3>
+          <p class="project-desc">A web-app for electronic beginners who aims to understand the basics of electronics.</p>
+          <div class="project-stack">
+            <span class="stack-tag">HTML, CSS, JS</span>
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">MySQL</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">02</span>
+        <div class="project-body">
+          <h3 class="project-title">GEARON — A Blog Site for a Gaming University Organization</h3>
+          <p class="project-desc">A web-app for a gaming organization where members create their accounts to see headlines and future updates regarding the organization</p>
+          <div class="project-stack">
+            <span class="stack-tag">HTML, CSS, JS</span>
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">MySQL</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">03</span>
+        <div class="project-body">
+          <h3 class="project-title">Atom the Recycabot — ESP32 Sumo-Bot</h3>
+          <p class="project-desc">Atom the Recycabot is a dual-mode Sumo-Bot powered by an ESP32 microcontroller. It features an autonomous battle mode using ultrasonic sensors for opponent detection and a manual control mode via Bluetooth using the Dabble smartphone application.</p>
+          <div class="project-stack">
+            <span class="stack-tag">ESP32 Development Board (DOIT DEVKIT V1)</span>
+            <span class="stack-tag">C++</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">04</span>
+        <div class="project-body">
+          <h3 class="project-title">Multi-Hazard Detector System (ESP32) — A real-time, multi-functional safety monitoring system powered by the ESP32 microcontroller.</h3>
+          <p class="project-desc">This project, affectionately titled "In-Heat Earthquickie Detector", integrates four distinct detection capabilities—Earthquake, Fire, Gas, and Intrusion—into a single compact device. It utilizes the Blynk IoT platform for data visualization and the Telegram Bot API for instant remote alert notifications.</p>
+          <div class="project-stack">
+            <span class="stack-tag">ESP32 Development Board (DOIT DEVKIT V1)</span>
+            <span class="stack-tag">C++</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label reveal">Contact</p>
+    <div class="contact-inner">
+      <div class="contact-text reveal">
+        <h2>Let's build<br><strong>something great.</strong></h2>
+        <p>Open to full-time roles, freelance projects, and interesting conversations. Don't hesitate to reach out.</p>
+        <a href="mailto:hello@alexrivera.dev" class="btn btn-primary">Say Hello →</a>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:cyadriene@gmail.com" target="_blank" class="contact-link">
+          <span>Email</span>
+          <span>↗</span>
+        </a>
+        <a href="https://github.com/Cyborg-hubx" target="_blank" class="contact-link">
+          <span>GitHub</span>
+          <span>↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/adriene-estrada-422057381/" target="_blank" class="contact-link">
+          <span>LinkedIn</span>
+          <span>↗</span>
+        </a>
+        <a href="https://x.com/rucilbluu" target="_blank" class="contact-link">
+          <span>Twitter / X</span>
+          <span>↗</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span>Resume</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Adriene Estrada. All rights reserved.</p>
+    <p>Designed & built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
